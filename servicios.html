@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios Jurídicos - Justicia & Asociados</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #002b5c;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background: #003f88;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background: #00509e;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #003f88;
+            margin-bottom: 15px;
+        }
+
+        .servicios {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .servicio {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 5px solid #003f88;
+        }
+
+        .servicio h3 {
+            color: #002b5c;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #002b5c;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        /* Botón flotante WhatsApp */
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .whatsapp-float i {
+            margin-top: 15px;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Justicia & Asociados</h1>
+        <p>Servicios Jurídicos</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="nuestra firma.html">Nuestra Firma</a>
+        <a href="equipo.html">Nuestro Equipo</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contactos.html">Contacto</a>
+    </nav>
+
+    <section>
+        <h2>Nuestros Servicios</h2>
+        <p>En <strong>Justicia & Asociados</strong> ofrecemos una amplia gama de servicios legales adaptados a las necesidades de cada cliente, tanto particulares como empresas:</p>
+
+        <div class="servicios">
+            <div class="servicio">
+                <h3>Derecho Penal</h3>
+                <p>Defensa en procesos penales, asesoría en denuncias y querellas, representación en juicios y recursos.</p>
+            </div>
+
+            <div class="servicio">
+                <h3>Derecho Civil</h3>
+                <p>Contratos, arrendamientos, reclamaciones de daños, herencias y sucesiones.</p>
+            </div>
+
+            <div class="servicio">
+                <h3>Derecho Familiar</h3>
+                <p>Divorcios, custodias, pensiones alimenticias, adopciones y mediación familiar.</p>
+            </div>
+
+            <div class="servicio">
+                <h3>Derecho Laboral</h3>
+                <p>Defensa de trabajadores y empresas, despidos injustificados, conciliaciones y demandas laborales.</p>
+            </div>
+
+            <div class="servicio">
+                <h3>Derecho Corporativo</h3>
+                <p>Asesoría legal a empresas, constitución de sociedades, fusiones, adquisiciones y contratos mercantiles.</p>
+            </div>
+
+            <div class="servicio">
+                <h3>Derecho Administrativo</h3>
+                <p>Defensa ante autoridades gubernamentales, licencias, permisos y procedimientos administrativos.</p>
+            </div>
+
+            <div class="servicio">
+                <h3>Derecho Inmobiliario</h3>
+                <p>Compra-venta de inmuebles, contratos, regularización de propiedades y litigios inmobiliarios.</p>
+            </div>
+
+            <div class="servicio">
+                <h3>Mediación y Arbitraje</h3>
+                <p>Resolución de conflictos fuera de tribunales, logrando acuerdos eficientes y satisfactorios.</p>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/5215512345678" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer>
+        <p>&copy; 2025 Justicia & Asociados - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestro Equipo - Justicia & Asociados</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #002b5c;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background: #003f88;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background: #00509e;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            background: white;
+            margin-top: 20px;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #003f88;
+            margin-bottom: 15px;
+        }
+
+        .equipo {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .abogado {
+            background: #f8f9fa;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            padding-bottom: 15px;
+        }
+
+        .abogado img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+        }
+
+        .abogado h3 {
+            margin: 10px 0 5px;
+            color: #002b5c;
+        }
+
+        .abogado p {
+            margin: 5px 15px;
+            font-size: 14px;
+        }
+
+        footer {
+            background: #002b5c;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        /* Botón flotante WhatsApp */
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+        }
+
+        .whatsapp-float i {
+            margin-top: 15px;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Justicia & Asociados</h1>
+        <p>Nuestro equipo de abogados</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="nuestra firma.html">Nuestra Firma</a>
+        <a href="equipo.html">Nuestro Equipo</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contactos.html">Contacto</a>
+    </nav>
+
+    <section>
+        <h2>Conoce a nuestros socios</h2>
+        <p>En <strong>Justicia & Asociados</strong> contamos con un equipo de abogados altamente capacitados y especializados en diferentes áreas del derecho, comprometidos con brindar la mejor asesoría y representación legal.</p>
+
+        <div class="equipo">
+            <div class="abogado">
+                <img src="https://tse1.mm.bing.net/th/id/OIP.fiMPtRI3u0e8m3WJO2HPmwHaEt?w=1000&h=637&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Lic. Juan Pérez">
+                <h3>Lic. Juan Pérez</h3>
+                <p><strong>Especialidad:</strong> Derecho Penal</p>
+                <p>Con más de 15 años de experiencia en litigios penales, se ha destacado por su capacidad estratégica y su compromiso con la defensa de los derechos de sus clientes.</p>
+            </div>
+
+            <div class="abogado">
+                <img src="https://image.freepik.com/foto-gratis/abogado-mujer-negocios-que-trabaja-notario-firma-documentos-oficina_253401-1447.jpg" alt="Lic. María López">
+                <h3>Lic. María López</h3>
+                <p><strong>Especialidad:</strong> Derecho Familiar</p>
+                <p>Experta en casos de divorcio, custodia y adopciones, ofreciendo siempre un enfoque humano y empático en procesos delicados.</p>
+            </div>
+
+            <div class="abogado">
+                <img src="https://tse3.mm.bing.net/th/id/OIP.dhILfO_dZ-4xD3O9HchnVAHaFH?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Lic. Carlos Gómez">
+                <h3>Lic. Carlos Gómez</h3>
+                <p><strong>Especialidad:</strong> Derecho Corporativo</p>
+                <p>Asesor legal de empresas nacionales e internacionales, experto en contratos, fusiones y adquisiciones.</p>
+            </div>
+
+            <div class="abogado">
+                <img src="https://img.freepik.com/fotos-premium/abogada-mujer-negocios-que-trabaja-o-lee-contrato-acuerdo-lugar-trabajo-oficina-concepto-abogado-consultor_3535-1011.jpg" alt="Lic. Sofía Martínez">
+                <h3>Lic. Sofía Martínez</h3>
+                <p><strong>Especialidad:</strong> Derecho Laboral</p>
+                <p>Especializada en la defensa de trabajadores y empresas en conflictos laborales, con amplia experiencia en conciliaciones.</p>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/5215512345678" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer>
+        <p>&copy; 2025 Justicia & Asociados - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
